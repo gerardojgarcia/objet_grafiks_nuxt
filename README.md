@@ -1,3 +1,22 @@
+#Objet Grafiks Web Management 
+
+
+
+--built with Nuxt3
+--static site generated
+--Wanted to build a more modern, dynamic and responinsive landing page for my web devloper firm. 
+-- Use TailwindCSS and AOS for styling and animations on scroll
+
+
+
+
+
+
+
+
+
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
