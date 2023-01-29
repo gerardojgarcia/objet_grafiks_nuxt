@@ -17,7 +17,7 @@ export default {
         <p class="text-lg w-1/2 pt-6 ml-8">With experts in Search Engine Optimization and Analytics, we can help tailor your website copy to get your business noticed online.</p>
         
         </div>
-        <div class=" w-1/2 flex flex-col space-y-8 ml-6 mr-6" >
+        <div class=" w-1/2 flex flex-col space-y-8 mx-6" >
         <div class="p-16 py-16 bg-white rounded-xl shadow-lg" data-aos="fade-left" data-aos-duration="2000" >
             <strong class="text-3xl">Expert Google Analytics</strong>
             <div class="space-y-4 w-3/4 pt-6  ">

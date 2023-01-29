@@ -32,16 +32,8 @@ export default {
       data-aos="zoom-in-up"
       data-aos-duration="1000"
     >
-      <div class=" flex  flex-col text-left justify-center w-1/4 ml-20 px-8 ">
-        <h3 class="text-6xl font-bold" data-aos="fade-right" data-aos-duration="2000">Need A Developer?</h3>
-
-        <p class="text-xl mt-8" data-aos="fade-right" data-aos-duration="2000">
-          Our front and backend web developers are ready to build your next
-          project.
-        </p>
-        <p class="self-end pt-6">Get a quick quote</p>
-      </div>
-      <div class="w-3/4 flex align-center justify-center " data-aos="fade-left" data-aos-duration="2000">
+      
+      <div class="w-1/2 flex align-center justify-center " data-aos="fade-left" data-aos-duration="2000">
         <form action="submit" class="flex flex-col shadow-lg ml-8 p-16 space-y-8 w-1/2  " >
           <div class="form-devs space-y-4 flex flex-col">
             <label for="devs" class="font-bold text-lg">How many developers do you need?</label>
@@ -70,6 +62,16 @@ export default {
         </form>
 
 
+      </div>
+
+      <div class=" flex  flex-col text-left justify-center w-1/2 ml-20 px-8 ">
+        <h3 class="text-6xl font-bold flex-start" data-aos="fade-right" data-aos-duration="2000">Need A Developer?</h3>
+
+        <p class="text-xl mt-8" data-aos="fade-right" data-aos-duration="2000">
+          Our front and backend web developers are ready to build your next
+          project.
+        </p>
+        <p class="self-end pt-6">Get a quick quote</p>
       </div>
     </div>
   </section>
