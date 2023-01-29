@@ -11,13 +11,14 @@ export default {
 <template>
     <section id="seo" class="bg-gray-200 p-8 flex ">
 
-        <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl w-1/2 p-8 py-16 ml-6" data-aos="fade-right" data-aos-duration="1000">
+        <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl w-1/2 p-8 py-16 pl-6" data-aos="fade-right" data-aos-duration="1000">
         
-        <h4 class="text-6xl font-bold pt-16 ml-8" >Get Ranked. Get Noticed</h4>
-        <p class="text-lg w-1/2 pt-6 ml-8">With experts in Search Engine Optimization and Analytics, we can help tailor your website copy to get your business noticed online.</p>
+        <h4 class="text-6xl font-bold pt-16 pl-8" >Get Ranked. Get Noticed</h4>
+        <p class="text-lg w-1/2 pt-6 pl-8">With experts in Search Engine Optimization and Analytics, we can help tailor your website copy to get your business noticed online.</p>
+        <img src="/SEO.png" alt="" class="w-96 self-end pr-16 pt-6 " data-aos="fade-right" data-aos-duration="2000">
         
         </div>
-        <div class=" w-1/2 flex flex-col space-y-8 mx-6" >
+        <div class=" w-1/2 flex flex-col space-y-8 px-6" >
         <div class="p-16 py-16 bg-white rounded-xl shadow-lg" data-aos="fade-left" data-aos-duration="2000" >
             <strong class="text-3xl">Expert Google Analytics</strong>
             <div class="space-y-4 w-3/4 pt-6  ">

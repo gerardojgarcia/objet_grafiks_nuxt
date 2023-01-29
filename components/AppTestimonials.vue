@@ -60,7 +60,7 @@ export default {
     <section id="testimonials" class="bg-gray-200 p-8">
 
 
-        <div class=" rounded-xl shadow-lg mx-6  py-16 px-8 bg-white flex flex-col  ">
+        <div class=" rounded-xl shadow-lg px-6  py-16  bg-white flex flex-col  ">
             <h5 class="text-5xl font-bold pb-16">Testimonials</h5>
                 
                 <div class="testimonial-container flex justify-center space-x-16 flex-wrap px-24">

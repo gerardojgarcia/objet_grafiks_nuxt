@@ -28,7 +28,7 @@ export default {
   <section id="quote" class="bg-gray-200 p-8">
 
     <div
-      class="md:flex md:justify-between md:align-center rounded-xl shadow-lg mx-6 py-16 px-8 bg-white"
+      class="md:flex md:justify-between md:align-center rounded-xl shadow-lg py-16 px-8 bg-white"
       data-aos="zoom-in-up"
       data-aos-duration="1000"
     >
@@ -64,7 +64,7 @@ export default {
 
       </div>
 
-      <div class=" flex  flex-col text-left justify-center w-1/2 ml-20 px-8 ">
+      <div class=" flex  flex-col text-left justify-center w-1/2  px-8 ">
         <h3 class="text-6xl font-bold flex-start" data-aos="fade-right" data-aos-duration="2000">Need A Developer?</h3>
 
         <p class="text-xl mt-8" data-aos="fade-right" data-aos-duration="2000">

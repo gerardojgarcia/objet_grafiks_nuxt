@@ -12,7 +12,7 @@ export default {
 
 <div>
 
-    <header class="flex justify-between px-4 py-4 bg-white fixed w-full  z-10 ">
+    <header class="flex justify-between px-6 py-4 bg-white fixed  w-full z-10 ">
 
         <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
 
