@@ -10,27 +10,27 @@ export default {
 <template>
 
 
-<div>
+    <div>
 
-    <header class="flex justify-between px-6 py-4 bg-white fixed  w-full z-10 ">
+        <header class="flex justify-between px-6 py-4 bg-white fixed  w-full z-10 ">
 
-        <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
-
-
-        <nav class="space-x-6">
+            <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
 
 
-<NuxtLink to="/">Home</NuxtLink>
-<NuxtLink to="/portfolio">Portfolio</NuxtLink>
-<NuxtLink to="/">Book</NuxtLink>
-
-        
-    </nav>
+            <nav class="space-x-6">
 
 
+                <NuxtLink to="/">Home</NuxtLink>
+                <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+                <NuxtLink to="/">Book</NuxtLink>
 
-    </header>
 
-</div>
-   
+            </nav>
+
+
+
+        </header>
+
+    </div>
+
 </template>

@@ -8,9 +8,9 @@ export default {
         AppTestimonialsCard
     },
 
-    data(){
+    data() {
         return {
-            testimonials:[
+            testimonials: [
                 {
                     id: 1,
                     text: "I was so busy running my store that having to manage an online one started to wear me down. I decided to sign up for their web management services and it's been a life changer. For the amount I've time I got back, the subscription was more than worth it!",
@@ -47,7 +47,7 @@ export default {
                     company: "EarthTutor",
                     duration: '2000'
                 },
-                
+
 
             ]
         }
@@ -62,22 +62,22 @@ export default {
 
         <div class=" rounded-xl shadow-lg px-6  py-16  bg-white flex flex-col  ">
             <h5 class="text-5xl font-bold pb-16">Testimonials</h5>
-                
-                <div class="testimonial-container flex justify-center space-x-16 flex-wrap px-24">
-            
-            
-                   
-               
-            
-                
-<AppTestimonialsCard :testimonials="testimonials"/>
-                
-                
-                
-                </div>
+
+            <div class="testimonial-container flex justify-center space-x-16 flex-wrap px-24">
+
+
+
+
+
+
+                <AppTestimonialsCard :testimonials="testimonials" />
+
+
+
+            </div>
         </div>
-    
-    
+
+
     </section>
-        
+
 </template>
