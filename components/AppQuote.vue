@@ -27,11 +27,13 @@ export default {
 <template>
   <section id="quote" class="bg-gray-200 p-8">
 
-    <div class="md:flex md:justify-between md:align-center rounded-xl shadow-lg py-16 px-8 bg-white"
+    <div class="md:flex md:justify-between md:align-center rounded-xl shadow-lg py-16 bg-white"
       data-aos="zoom-in-up" data-aos-duration="1000">
 
       <div class="w-1/2 flex align-center justify-center " data-aos="fade-left" data-aos-duration="2000">
-        <form action="submit" class="flex flex-col shadow-lg ml-8 p-16 space-y-8 w-1/2  ">
+
+      <!--Form-->
+        <form action="submit" class="flex flex-col shadow-lg pl-8 p-16 space-y-8 w-1/2  ">
           <div class="form-devs space-y-4 flex flex-col">
             <label for="devs" class="font-bold text-lg">How many developers do you need?</label>
             <input type="range" name="devs" id="devs" class="devs w-3/4" min="0" max="4"
@@ -73,7 +75,7 @@ export default {
           Our front and backend web developers are ready to build your next
           project.
         </p>
-        <p class="self-end pt-6">Get a quick quote</p>
+        <p class="self-start pt-6">Get a quick quote</p>
       </div>
     </div>
   </section>

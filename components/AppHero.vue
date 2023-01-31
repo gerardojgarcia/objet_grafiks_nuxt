@@ -32,7 +32,7 @@ export default {
                 <AppNavButton to="#work" link="Explore Our Work" />
             </div>
 
-            <div class="hero-graphic w-3/4 grid place-items-center isolate">
+            <div class="hero-graphic w-3/4 grid place-items-center ">
 
                 <!--<div class="z-6 mr-32 absolute  " data-aos="fade-left" data-aos-duration="700"><img src="/Web Development.png" alt="Illustration of the different aspects of web development " ></div>
         <div class="mt-36 ml-72 z-0 absolute" data-aos="fade-right" data-aos-duration="1200">

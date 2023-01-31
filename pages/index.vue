@@ -5,6 +5,7 @@ import AppExperience  from '../components/AppExperience.vue';
 import AppQuote from '../components/AppQuote.vue'
 import AppSEO from '../components/AppSEO.vue'
 import AppTestimonials from '../components/AppTestimonials.vue'
+import AppSubscribe from '../components/AppSubscribe.vue'
 
 export default {
     name: 'index',
@@ -14,7 +15,8 @@ export default {
         AppExperience,
         AppQuote,
         AppSEO,
-        AppTestimonials
+        AppTestimonials,
+        AppSubscribe
 
     }
 }
@@ -28,6 +30,7 @@ export default {
     <AppQuote/>
     <AppSEO/>
     <AppTestimonials/>
+    <AppSubscribe/>
     
     </div>
 
