@@ -1,6 +1,27 @@
 <script>
+
+import AppSubscribeCard from '../components/AppSubscribeCard.vue';
+
 export default {
     name: 'AppSubscribe',
+
+    component:{
+        AppSubscribeCard
+    },
+
+    data(){
+        return {
+            plans: [
+                {
+                    id: 1,
+                    name: 'Starter',
+                    price: "500",
+                    description: 'TExt text text',
+                    features: [{feature:'text text text'}, {feature:'text text text'}, {feature:'text text text'}]
+                }
+            ]
+        }
+    }
 
 
 
@@ -20,51 +41,7 @@ export default {
 <div class="subscription-card-container flex flex-col md:flex-row justify-center mt-16">
 
 
-    <div class="subscription-card rounded-xl shadow-xl py-16 px-6 text-left mr-4">
-
-    <p class="subscription-title">Starter</p>
-    <p class="subscription-price text-2xl font-bold"><span class="text-sm font-normal mr-2">starting from</span>$500 <span class="text-sm font-normal mr-2">/month</span></p>
-     <p class="subscription-subtitle">For small businesses looking to grow</p>   
-     <ul class=" pt-8">
-        <li>text</li>
-        <li>text</li>
-        <li>text</li>
-        <li>text</li>
-     </ul>
-
-    
-    
-    </div>
-    <div class="subscription-card rounded-xl shadow-xl py-16 px-6 text-left">
-
-<p class="subscription-title">Starter</p>
-<p class="subscription-price text-2xl font-bold"><span class="text-sm font-normal mr-2">starting from</span>$500 <span class="text-sm font-normal mr-2">/month</span></p>
- <p class="subscription-subtitle">For small businesses looking to grow</p>   
- <ul class=" pt-8">
-    <li>text</li>
-    <li>text</li>
-    <li>text</li>
-    <li>text</li>
- </ul>
-
-
-
-</div>
-<div class="subscription-card rounded-xl shadow-xl py-16 px-6 text-left">
-
-<p class="subscription-title">Starter</p>
-<p class="subscription-price text-2xl font-bold"><span class="text-sm font-normal mr-2">starting from</span>$500 <span class="text-sm font-normal mr-2">/month</span></p>
- <p class="subscription-subtitle">For small businesses looking to grow</p>   
- <ul class=" pt-8">
-    <li>text</li>
-    <li>text</li>
-    <li>text</li>
-    <li>text</li>
- </ul>
-
-
-
-</div>
+ <AppSubscribeCard :plans="plans"/>
 
 
 </div>
@@ -78,7 +55,8 @@ export default {
 <style scoped>
 
     .subscription-card {
-        max-width: 25rem;
+        max-width: 27rem;
+        min-height: 30rem;
         
     }
 
