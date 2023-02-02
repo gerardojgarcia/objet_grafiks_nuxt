@@ -11,14 +11,14 @@ export default {
 </script>
 
 <template>
-     <div class="subscription-card rounded-xl shadow-xl py-16 px-6 text-left mr-4" v-for="plans in plans" :key="plans.id">
+     <div class="subscription-card rounded-xl shadow-lg py-16 px-6 text-left mr-4 hover:shadow-2xl" v-for="plans in plans" :key="plans.id">
 
 <p class="subscription-title text-lg font-bold">{{plans.name}}</p>
 <p class="subscription-price text-3xl font-bold"><span class="text-sm font-normal mr-2"> from</span>${{plans.price}} <span class="text-sm font-normal mr-2">/month</span></p>
  <p class="subscription-subtitle text-gray-600">{{ plans.description }}</p> 
  <span class="subscription-card-span bg-gray-300"></span>  
  <ul class=" pt-8 space-y-4"  >
-    <li  v-for="features in plans.features" :key="features" >{{ features.feature }}</li>
+    <li  v-for="features in plans.features" :key="features" > - {{ features.feature }}</li>
     
  </ul>
 

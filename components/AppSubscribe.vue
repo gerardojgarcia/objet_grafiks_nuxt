@@ -17,7 +17,7 @@ export default {
                     name: 'Starter',
                     price: "500",
                     description: 'TExt text text',
-                    features: [{feature:'text text text'}, {feature:'text text text'}, {feature:'text text text'}]
+                    features: [{feature:"Development: Completely custom built website with hosting inluded. Custom built web components and features specific to your business. "}, {feature:"Exposure: Analyze site traffic to identify issues and areas of potential growth. We'll come up with the best plan to get you to the top of search results. Create web content for emails, landing pages, Google Ads" }, {feature:"Maintenance:"}]
                 },
                 {
                     id: 2,
