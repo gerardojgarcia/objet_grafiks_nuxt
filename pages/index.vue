@@ -26,11 +26,13 @@ export default {
     
     
     <AppHero/>
-    <AppExperience/>
     <AppQuote/>
+    <AppExperience/>
+    
     <AppSEO/>
-    <AppTestimonials/>
     <AppSubscribe/>
+    <AppTestimonials/>
+    
     
     </div>
 

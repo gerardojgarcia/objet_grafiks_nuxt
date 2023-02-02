@@ -11,10 +11,10 @@ export default {
 </script>
 
 <template>
-    <div class="bg-gray-200 p-8  ">
+    <div id="hero" class="bg-gray-200 p-8  ">
 
 
-        <div class="md:flex md:justify-center md:align-center rounded-xl shadow-lg px-6 py-16 pb-36 bg-white md:mt-10 "
+        <div class="md:flex md:justify-center md:align-center rounded-xl shadow-lg  py-16 pb-36 bg-white md:mt-10 "
             data-aos="zoom-in-up" data-aos-duration="1000">
 
             <div class="hero-info w-1/4 p-24 self-center">

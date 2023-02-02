@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'AppHeader',
+    name: 'AppFooter',
 
 
 }
@@ -12,7 +12,7 @@ export default {
 
     <div>
 
-        <header class="flex justify-between px-6  py-4 bg-white fixed  w-full z-10 ">
+        <footer class="flex justify-between px-6 py-4 bg-white   w-full z-10 ">
 
             <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
 
@@ -20,7 +20,7 @@ export default {
             <nav class="space-x-6">
 
 
-                <NuxtLink to="/">Home</NuxtLink>
+                <NuxtLink to="#hero">Home</NuxtLink>
                 <NuxtLink to="/portfolio">Portfolio</NuxtLink>
                 <NuxtLink to="/">Book</NuxtLink>
 
@@ -29,7 +29,7 @@ export default {
 
 
 
-        </header>
+        </footer>
 
     </div>
 
