@@ -8,9 +8,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "aos": "^2.3.4",
     "nuxt": "^3.0.0",
+    "nuxt-compress": "^5.0.0",
     "vue-range-slider": "^0.6.0"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^3.0.0"
   }
 }

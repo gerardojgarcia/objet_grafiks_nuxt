@@ -17,21 +17,30 @@ export default {
                     name: 'Starter',
                     price: "500",
                     description: 'TExt text text',
-                    features: [{feature:"Development: Completely custom built website with hosting inluded. Custom built web components and features specific to your business. "}, {feature:"Exposure: Analyze site traffic to identify issues and areas of potential growth. We'll come up with the best plan to get you to the top of search results. Create web content for emails, landing pages, Google Ads" }, {feature:"Maintenance:"}]
+                    features: [
+                        {feature:"Development: Completely custom built website with hosting inluded. Custom built web components and features specific to your business. "}, 
+                        {feature:"Exposure: Analyze site traffic to identify issues and areas of potential growth. We'll come up with the best plan to get you to the top of search results. Create web content for emails, landing pages, Google Ads" }, 
+                        {feature:"Maintenance:"}]
                 },
                 {
                     id: 2,
                     name: 'Growth',
                     price: "1500",
                     description: 'TExt text text',
-                    features: [{feature:'text2 text2 text2'}, {feature:'text2 text2 text2'}, {feature:'text2 text2 text2'}]
+                    features: [
+                        {feature:'text2 text2 text2'}, 
+                    {feature:'text2 text2 text2'}, 
+                    {feature:'text2 text2 text2'}]
                 },
                 {
                     id: 3,
                     name: 'Enterprise',
                     price: "5000",
                     description: 'Text text text',
-                    features: [{feature:'text3 text3 text3'}, {feature:'text3 text3 text3'}, {feature:'text3 text3 text3'}]
+                    features: [
+                        {feature:'text3 text3 text3'}, 
+                        {feature:'text3 text3 text3'}, 
+                        {feature:'text3 text3 text3'}]
                 },
             ],
             
