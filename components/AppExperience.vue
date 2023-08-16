@@ -27,7 +27,7 @@ export default {
                 {
                     id: 3,
                     name: "Verified Transport",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Landing page for a fast, hyper-local logistics company.  ',
                     link: 'https://verifiedtransport.info',
                     img: '/website_desktop_mockup_verified.webp',
                     duration: '1400'
@@ -35,7 +35,7 @@ export default {
                 {
                     id: 4,
                     name: "Tewsr.art",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'E-commerce site for a handmade furniture store based in Los Angeles',
                     link: 'https://',
                     img: '/public/earthtutor_mockup.png',
                     duration: '1800'
@@ -51,7 +51,7 @@ export default {
                 {
                     id: 6,
                     name: "EarthTutor",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Free online resources for students studying Earth Science',
                     link: 'https://earthtutor.info',
                     img: '/earthtutor_mockup.png',
                     duration: '1100'
@@ -59,7 +59,7 @@ export default {
                 {
                     id: 7,
                     name: "TaxBuddy",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Online accounting software designed for small & medium sized businesses',
                     link: 'https://yourtaxbuddy.xyz',
                     img: '/tax_buddy_mobile_mockup1.webp',
                     duration: '1400'
@@ -90,7 +90,7 @@ export default {
             data-aos="zoom-in-up" data-aos-duration="1000">
 
             <div class="text-left self-start w-1/4 px-8">
-                <h1 class="text-6xl font-bold">Clients</h1>
+                <h1 class="text-6xl font-bold">Projects</h1>
             </div>
             <div>
 
