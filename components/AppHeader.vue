@@ -14,14 +14,14 @@ export default {
 
         <header class="flex justify-between px-6  py-4 bg-white fixed  w-full z-10 ">
 
-            <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
+            <p class="logo text-xl"><span class="font-bold ">Objet</span>grafik</p>
 
 
             <nav class="space-x-6">
 
 
                 <NuxtLink to="/">Home</NuxtLink>
-                <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+                <NuxtLink to="/portfolio">Websites</NuxtLink>
                 <NuxtLink to="/">Book</NuxtLink>
 
 
