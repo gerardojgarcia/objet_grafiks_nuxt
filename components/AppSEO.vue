@@ -11,7 +11,7 @@ export default {
 <template>
     <section id="seo" class="bg-gray-200 p-8 flex ">
 
-        <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl w-1/2 p-8 my-52 py-16 pl-6"
+        <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl w-1/2 p-8 md:my-64 py-16 pl-6"
             data-aos="fade-right" data-aos-duration="1000">
 
             <h4 class="text-6xl font-bold pt-16 pl-8">Get Ranked. Get Noticed</h4>
