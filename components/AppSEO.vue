@@ -14,7 +14,7 @@ export default {
         <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl w-1/2 p-8 md:my-64 py-16 pl-6"
             data-aos="fade-right" data-aos-duration="1000">
 
-            <h4 class="text-6xl font-bold pt-16 pl-8">Get Ranked. Get Noticed</h4>
+            <h4 class="text-6xl font-bold pt-16 pl-8">Get Ranked. Get Noticed.</h4>
             <p class="text-lg w-1/2 pt-6 pl-8">With experts in Search Engine Optimization and Analytics, we can help
                 tailor your website copy to get your business noticed online.</p>
 

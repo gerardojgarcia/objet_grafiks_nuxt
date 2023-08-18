@@ -26,7 +26,7 @@ export default {
     
     
     <AppHero/>
-    <AppQuote/>
+    <!--<AppQuote/>-->
     <AppExperience/>
     
     <AppSEO/>

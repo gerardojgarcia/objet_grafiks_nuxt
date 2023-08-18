@@ -16,31 +16,45 @@ export default {
                     id: 1,
                     name: 'Starter',
                     price: "500",
-                    description: 'TExt text text',
+                    description: 'For simpler projects that involve basic website development, minor updates, and simple customization',
                     features: [
-                        {feature:"Development: Completely custom built website with hosting inluded. Custom built web components and features specific to your business. "}, 
-                        {feature:"Exposure: Analyze site traffic to identify issues and areas of potential growth. We'll come up with the best plan to get you to the top of search results. Create web content for emails, landing pages, Google Ads" }, 
-                        {feature:"Maintenance:"}]
+                        {feature:"Basic Website Design: Design and development of a simple, static website with a few pages, including a homepage, about page, services page, and contact page. "}, 
+                        {feature:"Template Customization: Customizing a pre-designed template to match the client's branding, including logo integration, color scheme adjustment, and basic layout changes.s" }, 
+                        {feature:"Adding a contact form to the website to allow visitors to send inquiries or messages directly to the client."},
+                    {feature: "Mobile Responsiveness: Ensuring that the website is responsive and functions well on different devices, such as desktops, tablets, and smartphones."},
+                    {feature:"Basic SEO Setup: Implementing basic on-page SEO elements such as meta tags, headers, and optimizing images for improved search engine visibility."},
+                    
+                ]
                 },
                 {
                     id: 2,
                     name: 'Growth',
-                    price: "1500",
-                    description: 'TExt text text',
+                    price: "2500",
+                    description: 'For moderately complex projects that include more advanced features, responsive design, and some backend integration: ',
                     features: [
-                        {feature:'text2 text2 text2'}, 
-                    {feature:'text2 text2 text2'}, 
-                    {feature:'text2 text2 text2'}]
+                        {feature:'Content Management System (CMS) Integration: Setting up a CMS like WordPress or a headless CMS to enable the client to easily update and manage content.'}, 
+                    {feature:'Custom Page Templates:  Designing and developing custom page templates for different sections of the website, such as blog posts, portfolio items, or product listings.'}, 
+                    {feature:'Third-Party Integrations:Integrating third-party tools and plugins for functionalities like social media feeds, newsletter signups, or analytics tracking.'},
+                    {feature:'E-commerce Integration: Adding basic e-commerce functionality, such as product catalog, shopping cart, and checkout process, suitable for small online stores.'},
+                    {feature:'Advanced SEO:Conducting more comprehensive keyword research, implementing structured data, and optimizing content for better search engine rankings.'}
+                
+                
+                ]
                 },
                 {
                     id: 3,
                     name: 'Enterprise',
-                    price: "5000",
-                    description: 'Text text text',
+                    price: "4500",
+                    description: 'For complex projects that require advanced functionalities, extensive backend development, e-commerce integration, and custom design:',
                     features: [
-                        {feature:'text3 text3 text3'}, 
-                        {feature:'text3 text3 text3'}, 
-                        {feature:'text3 text3 text3'}]
+                        {feature:'Custom Web Applications:Developing custom web applications or interactive features like calculators, user dashboards, or advanced search functionalities.'}, 
+                        {feature:'Complex E-commerce Solutions: Building a full-fledged e-commerce platform with advanced features like product variants, inventory management, payment gateways, and order processing.'}, 
+                        {feature:'Custom Design and Animation: Creating intricate and visually appealing designs, incorporating animations or interactive elements to enhance user engagement.'},
+                        {feature:'API Integrations: Integrating with third-party APIs for advanced functionalities, such as integrating with external services or fetching data from other sources.'},
+                        {feature:'User Authentication and Security:: Implementing user authentication and authorization systems to secure sensitive user data and provide personalized experiences.'},
+                    
+                    
+                    ]
                 },
             ],
             
@@ -58,7 +72,7 @@ export default {
     <div class="bg-white rounded-xl shadow-xl py-16 flex flex-col justify-center items-center text-center"> 
 
     <h5 class="text-5xl font-bold">Focus On What Matters Most</h5>
-    <p class="pt-8 w-1/2">You didn't start your business only to find out that an effective online presence takes up all of your time. Get your time back by letting us handle the web hassles and get back to what matters </p>
+    <p class="pt-8 w-1/2">You didn't start your business only to find out that an effective online presence takes up an incredible amount of time. Reclaim it by letting us handle the web hassles and get back to what matters </p>
 
 
 
