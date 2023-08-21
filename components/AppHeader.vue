@@ -22,6 +22,8 @@ export default {
 
                 <NuxtLink to="/">Home</NuxtLink>
                 <NuxtLink to="/portfolio">Websites</NuxtLink>
+                <NuxtLink to="/portfolio">SEO</NuxtLink>
+
                 <NuxtLink to="/">Book</NuxtLink>
 
 
