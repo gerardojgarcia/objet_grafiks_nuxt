@@ -6,6 +6,7 @@ import AppQuote from '../components/AppQuote.vue'
 import AppSEO from '../components/AppSEO.vue'
 import AppTestimonials from '../components/AppTestimonials.vue'
 import AppSubscribe from '../components/AppSubscribe.vue'
+import AppContact from '../components/AppContact.vue'
 
 export default {
     name: 'index',
@@ -32,7 +33,7 @@ export default {
     <AppSEO/>
     <AppSubscribe/>
     <AppTestimonials/>
-    
+    <AppContact/>
     
     </div>
 

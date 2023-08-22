@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-     <div class="subscription-card rounded-xl shadow-lg py-16 px-8 text-left mr-4 hover:shadow-2xl" v-for="plans in plans" :key="plans.id">
+     <div class="subscription-card rounded-xl shadow-lg py-16  md:px-8 text-left bg-white  mr-4 hover:shadow-2xl" v-for="plans in plans" :key="plans.id">
 
 <p class="subscription-title text-xl mb-1 font-bold">{{plans.name}}</p>
 <p class="subscription-price text-4xl font-bold"><span class="text-sm font-normal mr-2"> from</span>${{plans.price}} </p>

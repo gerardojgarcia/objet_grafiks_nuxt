@@ -11,13 +11,13 @@ export default {
 </script>
 
 <template>
-    <div id="hero" class="bg-gray-200 p-8  ">
+    <div id="hero" class="bg-gray-200 p-8 mt-12 md:mt-0  ">
 
 
-        <div class="md:flex md:justify-center md:align-center rounded-xl shadow-lg  py-16 pb-36 bg-white md:mt-10 "
+        <div class="flex flex-col md:flex-row md:justify-center md:align-center rounded-xl shadow-lg  md:py-16 pb-36 bg-white md:mt-10 "
             data-aos="zoom-in-up" data-aos-duration="1000">
 
-            <div class="hero-info w-1/4 p-24 self-center">
+            <div class="hero-info md:w-1/4 p-12 md:p-24 self-center">
                 <div class="hero-text text-left  space-y-3 mb-16  " data-aos="fade-right" data-aos-duration="2000">
 
                     <h1 class="text-6xl font-bold">Go beyond a website.</h1>
@@ -32,17 +32,17 @@ export default {
                 <AppNavButton to="#work" link="Explore Our Work" />
             </div>
 
-            <div class="hero-graphic w-3/4 grid place-items-center ">
+            <div class="hero-graphic md:w-3/4 grid place-items-center ">
 
-                <!--<div class="z-6 mr-32 absolute  " data-aos="fade-left" data-aos-duration="700"><img src="/Web Development.png" alt="Illustration of the different aspects of web development " ></div>
+                <!--<div class="z-6 mr-32 absolute  " data-aos="fade-left" data-aos-duration="700"><img src="/Web Development.webp" alt="Illustration of the different aspects of web development " ></div>
         <div class="mt-36 ml-72 z-0 absolute" data-aos="fade-right" data-aos-duration="1200">
 
-        <img src="/Digital Marketing.png" alt="">
+        <img src="/Digital Marketing.webp" alt="">
         </div>
-        <div class=" mt-96 absolute mr-96 z-2" data-aos="fade-left" data-aos-duration="1600"><img src="/E-commerce.png" alt=""></div>-->
+        <div class=" mt-96 absolute mr-96 z-2" data-aos="fade-left" data-aos-duration="1600"><img src="/E-commerce.webp" alt=""></div>-->
 
-                <img src="/Development.png" alt="image of a team collaborating on building a website"
-                    data-aos="fade-left" data-aos-duration="1200">
+                <nuxt-img src="/Development.webp" alt="image of a team collaborating on building a website"
+                    data-aos="fade-left" data-aos-duration="1200" sizes="sm:100vw lg:100vw"/>
 
             </div>
 

@@ -83,16 +83,16 @@ export default {
 </script>
 
 <template>
-    <section class="flex flex-col p-8 bg-gray-200  ">
+    <section class="flex flex-col p-8 bg-gray-200 overflow-hidden ">
 
-    <div class="bg-white rounded-xl shadow-xl py-16 flex flex-col justify-center items-center text-center"> 
+    <div class="bg-white rounded-xl shadow-xl md:py-16 mb-32 flex flex-col justify-center items-center md:text-center"> 
 
-    <h5 class="text-5xl font-bold">Focus On What Matters Most</h5>
-    <p class="pt-8 w-1/2">You didn't start your business only to find out that an effective online presence takes up an incredible amount of time. Reclaim it by letting us handle the web hassles and get back to what matters </p>
+    <h5 class="text-5xl px-6 font-bold">Focus On What Matters Most</h5>
+    <p class="pt-8 md:w-1/2 px-6">You didn't start your business only to find out that an effective online presence takes up an incredible amount of time. Reclaim it by letting us handle the web hassles and get back to what matters </p>
 
 
 
-<div class="subscription-card-container w-full flex flex-col md:flex-row justify-center mt-16">
+<div class="subscription-card-container  flex flex-col md:flex-row mx-32 overflow-hidden  justify-center mt-32">
 
 
  <AppSubscribeCard :plans="plans"/>
