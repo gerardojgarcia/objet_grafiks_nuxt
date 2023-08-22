@@ -33,7 +33,7 @@ export default {
                             improve their online presence. </p>
                     </div>
                 </div>
-                <img src="/SEO.png" alt="" class="w-96 self-end pr-16 pt-6 " data-aos="fade-up"
+                <nuxt-img src="/SEO.webp" alt="Illustration of woman standing against graphs and search bars" class="w-96 self-end pr-16 pt-6 " data-aos="fade-up"
                     data-aos-duration="2000" />
             </div>
             <div class="p-16 py-16 bg-white rounded-xl shadow-lg flex" data-aos="fade-left" data-aos-duration="2200">
@@ -48,8 +48,8 @@ export default {
                             helps with SEO but also keeps visitors on the website. </p>
                     </div>
                 </div>
-                <img src="/Stats.png" class="w-96 self-end pr-16 pt-6 " alt="" data-aos="fade-up"
-                    data-aos-duration="2000">
+                <nuxt-img src="/Stats.webp" class="w-96 self-end pr-16 pt-6 " alt="" data-aos="fade-up"
+                    data-aos-duration="2000"/>
             </div>
         </div>
 

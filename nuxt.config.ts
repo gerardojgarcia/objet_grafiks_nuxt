@@ -22,14 +22,13 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         ['@nuxtjs/robots', { configPath: "~/config/robots.config" },],
+        '@nuxt/image'
 
         
     ],
     nitro: {
-        compressPublicAssets: {
-            gzip: true,
-        brotli: true,
-        },
+        compressPublicAssets: true,
+            
         prerender: {
             crawlLinks:true,
         }

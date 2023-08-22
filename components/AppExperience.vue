@@ -13,7 +13,7 @@ export default {
                     name: "Oranges & Lemons",
                     description: 'Cleaning Service based in DTLA. Integrated  onlinie chat, booking, and customer service features',
                     link: 'https://dtlaclean.com',
-                    img: '/earthtutor_mockup.png',
+                    img: '/earthtutor_mockup.webp',
                     duration: '700'
                 },
                 {
@@ -37,7 +37,7 @@ export default {
                     name: "Tewsr.art",
                     description: 'Graffiti artist specializing in graphic design, large scale murals, and retail spaces.',
                     link: 'https://',
-                    img: '/public/earthtutor_mockup.png',
+                    img: '/public/earthtutor_mockup.webp',
                     duration: '1800'
                 },
                 {
@@ -53,7 +53,7 @@ export default {
                     name: "EarthTutor",
                     description: 'Free online resources for students studying Earth Science',
                     link: 'https://earthtutor.info',
-                    img: '/earthtutor_mockup.png',
+                    img: '/earthtutor_mockup.webp',
                     duration: '1100'
                 },
                 {
