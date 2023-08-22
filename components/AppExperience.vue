@@ -11,7 +11,7 @@ export default {
                 {
                     id: 1,
                     name: "Oranges & Lemons",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Cleaning Service based in DTLA. Integrated  onlinie chat, booking, and customer service features',
                     link: 'https://dtlaclean.com',
                     img: '/earthtutor_mockup.png',
                     duration: '700'
@@ -19,7 +19,7 @@ export default {
                 {
                     id: 2,
                     name: "ELACompost",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Informational site that provides resources for understanding and implenting best composting practices',
                     link: 'https://elacompost.info',
                     img: '/elacompost_desktop_mockup.webp',
                     duration: '1100'
@@ -27,7 +27,7 @@ export default {
                 {
                     id: 3,
                     name: "Verified Transport",
-                    description: 'Landing page for a fast, hyper-local logistics company.  ',
+                    description: 'Landing page for a fast, hyper-local logistics company based in San Bernardino, CA  ',
                     link: 'https://verifiedtransport.info',
                     img: '/website_desktop_mockup_verified.webp',
                     duration: '1400'
@@ -35,7 +35,7 @@ export default {
                 {
                     id: 4,
                     name: "Tewsr.art",
-                    description: 'E-commerce site for a handmade furniture store based in Los Angeles',
+                    description: 'Graffiti artist specializing in large scale murals.',
                     link: 'https://',
                     img: '/public/earthtutor_mockup.png',
                     duration: '1800'

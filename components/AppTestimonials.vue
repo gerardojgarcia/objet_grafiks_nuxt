@@ -14,7 +14,7 @@ export default {
                 {
                     id: 1,
                     text: "I was so busy running my store that having to manage an online one started to wear me down. I decided to sign up for their web management services and it's been a life changer. For the amount I've time I got back, the subscription was more than worth it!",
-                    name: "Janet Dickens",
+                    name: "Janet Rosemont",
                     company: "ELACompost",
                     duration: '700'
 
@@ -36,7 +36,7 @@ export default {
                 {
                     id: 4,
                     text: "I was in need of a website that not only looked professional, but also effectively communicated the services we offer and made it easy for potential customers to get in touch with us.  The team at Objet was incredibly responsive and easy to work with throughout the entire process. They listened to my needs and created a website that exceeded my expectations. Not only does it look great, but it also functions seamlessly and has helped us attract new business. ",
-                    name: "Noel Sanchez",
+                    name: "Scott Harwood",
                     company: "Verified Transport",
                     duration: '1700'
                 },
@@ -45,6 +45,13 @@ export default {
                     text: "Finding a website that not only presents the material in an engaging and interactive way, but also keeps the students interested and motivated was a top priority. That’s why I reached out to Gerardo and the team at Objet. They were able to create an interactive and visually appealing website that my students absolutely love. The website is easy to navigate and allows students to learn through interactive games and quizzes, which keeps them engaged and motivated. I highly recommend ObjetGrafiks to any school or education institution looking for a top-notch website for earth science education.",
                     name: "Sergio Carrillo",
                     company: "EarthTutor",
+                    duration: '2000'
+                },
+                {
+                    id: 6,
+                    text: "They ares highly skilled in creating strong, keyword-rich content that is perfect for SEO. They have a deep understanding of how search engines work and are able to create content that is optimized for both search engines and human readers. They are able to research and identify the best keywords to target and incorporate them naturally into the content. They also make sure that the content they create is engaging and informative, which not only helps with SEO but also keeps visitors on the website.",
+                    name: "David Worthington",
+                    company: "Telos Truck",
                     duration: '2000'
                 },
 

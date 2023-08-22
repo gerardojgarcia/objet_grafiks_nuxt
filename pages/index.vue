@@ -41,3 +41,10 @@ export default {
 
 
 </template>
+<style scoped>
+
+* {
+    overflow:hidden;
+}
+
+</style>

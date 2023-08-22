@@ -18,7 +18,7 @@ export default {
  <p class="subscription-subtitle text-gray-600 mt-3 mr-12">{{ plans.description }}</p> 
  <span class="subscription-card-span bg-gray-300"></span>  
  <ul class=" pt-8 space-y-4 " v-for="features in plans.features" :key="features" >
-    <li class="text-sm pr-4 flex flex-col text-gray-500" >  <span class="font-bold text-base text-black">{{ features.feature }}</span> {{ features.detail }} </li>
+    <li class="text-sm pr-4 flex flex-col text-gray-500" >  <span class="font-bold text-base text-black ">{{ features.feature }}</span> {{ features.detail }} </li>
     
  </ul>
 
