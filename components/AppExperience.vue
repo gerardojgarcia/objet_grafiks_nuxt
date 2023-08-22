@@ -74,6 +74,15 @@ export default {
                     duration: '1800'
 
                 },
+                {
+                    id: 9,
+                    name: "Telos Truck",
+                    description: 'Landing page providing for the launch of their new electic truck',
+                    link: 'https://buildwithmonarch.info',
+                    img: '/tax_buddy_mobile_mockup1.webp',
+                    duration: '1800'
+
+                },
 
             ]
         }
