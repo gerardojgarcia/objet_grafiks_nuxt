@@ -35,7 +35,7 @@ export default {
                 {
                     id: 4,
                     name: "Tewsr.art",
-                    description: 'Graffiti artist specializing in large scale murals.',
+                    description: 'Graffiti artist specializing in graphic design, large scale murals, and retail spaces.',
                     link: 'https://',
                     img: '/public/earthtutor_mockup.png',
                     duration: '1800'
@@ -43,7 +43,7 @@ export default {
                 {
                     id: 5,
                     name: "snap-studio!!",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Handmade home goods - from furniture to built-ins. Located in East Los Angeles',
                     link: 'https://snap-studio.shop',
                     img: '/smartphone_mockup.webp',
                     duration: '700'
