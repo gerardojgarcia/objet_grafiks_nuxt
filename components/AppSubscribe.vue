@@ -2,11 +2,13 @@
 
 import AppSubscribeCard from '../components/AppSubscribeCard.vue';
 
+
 export default {
     name: 'AppSubscribe',
 
     component:{
-        AppSubscribeCard
+        AppSubscribeCard,
+
     },
 
     data(){

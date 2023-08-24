@@ -1,4 +1,11 @@
-<script>
+<script setup>
+
+
+const gtag = useGtag()
+gtag('event', 'screen_view', {
+  app_name: 'Objetgrafik',
+  screen_name: 'Home'
+})
 
 import  AppHero  from '../components/AppHero.vue';
 import AppExperience  from '../components/AppExperience.vue';
@@ -8,19 +15,7 @@ import AppTestimonials from '../components/AppTestimonials.vue'
 import AppSubscribe from '../components/AppSubscribe.vue'
 import AppContact from '../components/AppContact.vue'
 
-export default {
-    name: 'index',
 
-    components: {
-        AppHero,
-        AppExperience,
-        AppQuote,
-        AppSEO,
-        AppTestimonials,
-        AppSubscribe
-
-    }
-}
 </script>
 <template>
     <div>
