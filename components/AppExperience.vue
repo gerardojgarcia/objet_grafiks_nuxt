@@ -37,7 +37,7 @@ export default {
                     name: "Tewsr.art",
                     description: 'Graffiti artist specializing in graphic design, large scale murals, and retail spaces.',
                     link: 'https://',
-                    img: '/public/earthtutor_mockup.webp',
+                    img: '/earthtutor_mockup.webp',
                     duration: '1800'
                 },
                 {
@@ -68,7 +68,7 @@ export default {
                 {
                     id: 8,
                     name: "Monarch Construction",
-                    description: 'ipsum dolor sit amet Loremconsectetur adipisicing elit. Quis el',
+                    description: 'Project management firm specializing budget analysis and asset allocation',
                     link: 'https://buildwithmonarch.info',
                     img: '/tax_buddy_mobile_mockup1.webp',
                     duration: '1800'
@@ -77,10 +77,10 @@ export default {
                 {
                     id: 9,
                     name: "Telos Truck",
-                    description: 'Landing page providing for the launch of their new electic truck',
+                    description: 'Landing page providing information for the launch of their new electic truck',
                     link: 'https://buildwithmonarch.info',
                     img: '/tax_buddy_mobile_mockup1.webp',
-                    duration: '1800'
+                    duration: '1900'
 
                 },
 
@@ -95,13 +95,13 @@ export default {
     <section id="work" class="bg-gray-200 p-8 ">
 
 
-        <div class="md:flex md:flex-col md:justify-center md:align-center rounded-xl shadow-lg px-3 md:px-6 py-16  bg-white"
+        <div class="flex flex-col md:justify-center md:align-center rounded-xl shadow-lg px-3 md:px-6 py-16 bg-white"
             data-aos="zoom-in-up" data-aos-duration="1000">
 
-            <div class="text-left self-start md:w-1/4 px-8">
+            <div class="text-left md:self-start md:w-1/4 px-8">
                 <h1 class="text-6xl font-bold">Projects</h1>
             </div>
-            <div>
+            <div >
 
                 <AppExperienceCard :client="client" />
 

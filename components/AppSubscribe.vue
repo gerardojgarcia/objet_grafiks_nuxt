@@ -85,7 +85,7 @@ export default {
 <template>
     <section class="flex flex-col p-8 bg-gray-200 overflow-hidden ">
 
-    <div class="bg-white rounded-xl shadow-xl md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center"> 
+    <div class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center" data-aos="fade-up" data-aos-duration="1500"> 
 
     <h5 class="text-5xl px-6 font-bold">Focus On What Matters Most</h5>
     <p class="pt-8 md:w-1/2 px-6">You didn't start your business only to find out that an effective online presence takes up an incredible amount of time. Reclaim it by letting us handle the web hassles and get back to what matters </p>
@@ -97,7 +97,7 @@ export default {
     
     </div>
 
-    <div class="subscription-card-container  flex flex-col md:flex-row px-4 justify-center">
+    <div class="subscription-card-container  flex flex-col md:flex-row px-4 pb-16 md:px-32 justify-center">
 
 
 <AppSubscribeCard :plans="plans"/>
@@ -110,11 +110,7 @@ export default {
 
 <style scoped>
 
-    .subscription-card {
-        max-width: 27rem;
-        min-height: 30rem;
-        
-    }
+    
 
 
 </style>

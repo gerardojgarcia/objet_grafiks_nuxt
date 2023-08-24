@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-     <div class="subscription-card rounded-xl shadow-lg py-16 px-4 mt-8 md:mt-0 md:px-8 text-left bg-white  md:mr-4 hover:shadow-2xl " v-for="plans in plans" :key="plans.id">
+     <div class="subscription-card rounded-xl shadow-lg md:w-1/3 py-16 px-4 mt-8 justify-center flex flex-col md:mt-0 md:px-8 text-left bg-white  md:mr-4 hover:shadow-2xl duration-150 " v-for="plans in plans" :key="plans.id">
 
 <p class="subscription-title text-xl mb-1 font-bold">{{plans.name}}</p>
 <p class="subscription-price text-4xl font-bold"><span class="text-sm font-normal mr-2"> from</span>${{plans.price}} </p>
@@ -29,7 +29,7 @@ export default {
 
 <style>
 .subscription-card {
-    width: min(90vw, 80vw);
+    
     min-height: 33rem;
 }
 

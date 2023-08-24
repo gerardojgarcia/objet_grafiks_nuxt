@@ -20,9 +20,9 @@ export default {
             <nav class="space-x-6">
 
 
-                <NuxtLink to="#hero">Home</NuxtLink>
-                <NuxtLink to="/portfolio">Portfolio</NuxtLink>
-                <NuxtLink to="/">Book</NuxtLink>
+                <NuxtLink to="#hero" class="hover:text-red-400 duration-150">Home</NuxtLink>
+                <NuxtLink to="/portfolio" class="hover:text-red-400 duration-150">Portfolio</NuxtLink>
+                <NuxtLink to="/" class="hover:text-red-400 duration-150">Book</NuxtLink>
 
 
             </nav>

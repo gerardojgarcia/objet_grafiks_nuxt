@@ -15,8 +15,8 @@ export default {
 
 
 <template>
-    <div class="flex flex-row flex-wrap mx-6 md:mx-16 mt-16 justify-center  ">
-        <div class="client-card shadow-xl rounded-lg pb-12 md:placeholder:w-80  bg-gray-100 overflow-hidden hover:shadow-2xl mt-16 mx-3 md:mx-8 "
+    <div class="flex flex-row flex-wrap mx-6 md:mx-16 mt-16 justify-center self-center ">
+        <div class="client-card shadow-xl rounded-lg pb-12 md:w-80  bg-gray-100 overflow-hidden hover:shadow-2xl mt-16 mx-3 md:mx-8 "
             v-for="client in client" data-aos="fade-up-left" :data-aos-duration="client.duration">
 
             <nuxt-img :src="client.img" alt="Img of website" class="w-full h-60 object-cover" />

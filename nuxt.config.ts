@@ -22,7 +22,8 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         ['@nuxtjs/robots', { configPath: "~/config/robots.config" },],
-        '@nuxt/image'
+        '@nuxt/image',
+        'nuxt-gtag'
 
         
     ],
@@ -34,6 +35,11 @@ export default defineNuxtConfig({
         }
         
         
+    },
+
+
+    gtag: {
+      id: 'G-N7CD3YVJBN'
     }
     
 
