@@ -14,14 +14,14 @@ export default {
     <div id="hero" class="bg-gray-200 p-8 mt-12 md:mt-0  ">
 
 
-        <div class="flex flex-col md:flex-row md:justify-center md:align-center rounded-xl shadow-lg  md:py-16 pb-36 bg-white md:mt-10 "
+        <div class="flex flex-col md:flex-row md:justify-center md:align-center rounded-xl shadow-lg  md:py-16 pb-36 bg-white md:mt-10  dark:bg-slate-800 dark:text-white  "
             data-aos="zoom-in-up" data-aos-duration="1000">
 
             <div class="hero-info md:w-1/4 p-12 md:p-24 self-center">
                 <div class="hero-text text-left  space-y-3 mb-16  " data-aos="fade-right" data-aos-duration="2000">
 
                     <h1 class="text-6xl font-bold">Go beyond a website.</h1>
-                    <p class="subtitle text-xl">With experts in Web Development, SEO, and E-commerce ready to work with
+                    <p class="subtitle text-xl dark:text-gray-400">With experts in Web Development, SEO, and E-commerce ready to work with
                         you, create an online experience that your customers coming back for more</p>
 
 
@@ -29,7 +29,7 @@ export default {
 
                 </div>
 
-                <AppNavButton to="#work" link="Explore Our Work" />
+                <AppNavButton to="#work" link="Explore Our Work"  />
             </div>
 
             <div class="hero-graphic md:w-3/4 grid place-items-center ">

@@ -95,7 +95,7 @@ export default {
     <section id="work" class="bg-gray-200 p-8 ">
 
 
-        <div class="flex flex-col md:justify-center md:align-center rounded-xl shadow-lg px-3 md:px-6 py-16 bg-white"
+        <div class="flex flex-col md:justify-center md:align-center rounded-xl shadow-lg px-3 md:px-6 py-16 bg-white  dark:bg-slate-800 dark:text-white "
             data-aos="zoom-in-up" data-aos-duration="1000">
 
             <div class="text-left md:self-start md:w-1/4 px-8">

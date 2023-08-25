@@ -32,6 +32,10 @@ export default defineNuxtConfig({
             
         prerender: {
             crawlLinks:true,
+        },
+        routeRules: {
+          "/public/**": { headers: { 'cache-control': `public,max-age=${1},s-maxage=${1}` } },
+          "/_nuxt/**": { headers: { 'cache-control': `public,max-age=${1},s-maxage=${1}` } },
         }
         
         
