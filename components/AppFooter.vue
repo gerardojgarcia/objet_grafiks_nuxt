@@ -12,7 +12,7 @@ export default {
 
     <div>
 
-        <footer class="flex justify-between px-6 py-4 bg-white   w-full z-10 ">
+        <footer class="flex justify-between px-6 py-4 bg-white dark:bg-gray-400  w-full z-10 ">
 
             <p class="logo text-xl"><span class="font-bold ">Objet</span>grafiks</p>
 

@@ -64,10 +64,10 @@ export default {
 </script>
 
 <template>
-    <section id="testimonials" class="bg-gray-200 p-8">
+    <section id="testimonials" class="bg-gray-200 p-8 dark:bg-gray-400">
 
 
-        <div class=" rounded-xl shadow-lg px-6  py-16  bg-white flex flex-col  ">
+        <div class=" rounded-xl shadow-lg px-6  py-16  bg-white flex flex-col  dark:bg-slate-800 dark:text-white ">
             <h5 class="text-5xl font-bold pb-16">Testimonials</h5>
 
             <div class="testimonial-container flex justify-center md:space-x-16 flex-wrap px-4 md:px-24">

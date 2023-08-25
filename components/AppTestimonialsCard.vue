@@ -17,7 +17,7 @@ export default {
 
         <div class="self-end">
             <p class="testimonial-name text-lg font-bold">{{ testimonials.name }}</p>
-            <p class="testimonial-company text-gray-600 font-bold">{{ testimonials.company }}</p>
+            <p class="testimonial-company text-gray-600 dark:text-gray-400 font-bold">{{ testimonials.company }}</p>
         </div>
 
 

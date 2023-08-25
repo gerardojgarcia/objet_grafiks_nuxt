@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <section id="seo" class="bg-gray-200 p-3 md:p-8 flex flex-col md:flex-row justify-center">
+    <section id="seo" class="bg-gray-200 dark:bg-gray-400 p-3 md:p-8 flex flex-col md:flex-row justify-center">
 
         <div class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl md:w-1/2 p-8 md:my-64 py-16 md:pl-6  dark:bg-slate-800 dark:text-white"
             data-aos="fade-right" data-aos-duration="1000">

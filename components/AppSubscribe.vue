@@ -85,9 +85,9 @@ export default {
 </script>
 
 <template>
-    <section class="flex flex-col p-8 bg-gray-200 overflow-hidden ">
+    <section class="flex flex-col p-8 bg-gray-200 overflow-hidden dark:bg-gray-400 ">
 
-    <div class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center" data-aos="fade-up" data-aos-duration="1500"> 
+    <div class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center  dark:bg-slate-800 dark:text-white" data-aos="fade-up" data-aos-duration="1500"> 
 
     <h5 class="text-5xl px-6 font-bold">Focus On What Matters Most</h5>
     <p class="pt-8 md:w-1/2 px-6">You didn't start your business only to find out that an effective online presence takes up an incredible amount of time. Reclaim it by letting us handle the web hassles and get back to what matters </p>
