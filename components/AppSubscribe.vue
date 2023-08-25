@@ -85,7 +85,7 @@ export default {
 </script>
 
 <template>
-    <section class="flex flex-col p-8 bg-gray-200 overflow-hidden dark:bg-gray-400 ">
+    <section class="flex flex-col p-4 md:p-8 bg-gray-200 overflow-hidden dark:bg-gray-400 ">
 
     <div class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center  dark:bg-slate-800 dark:text-white" data-aos="fade-up" data-aos-duration="1500"> 
 
