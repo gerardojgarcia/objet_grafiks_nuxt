@@ -24,7 +24,7 @@ export default {
                 <NuxtLink to="#portfolio" class="hover:text-red-400 duration-150">Projects</NuxtLink>
 
 
-                <NuxtLink to="/" class="hover:text-red-400 duration-150">Book</NuxtLink>
+                <NuxtLink to="#contact" class="hover:text-red-400 duration-150">Book</NuxtLink>
 
 
             </nav>

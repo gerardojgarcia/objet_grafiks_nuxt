@@ -34,6 +34,15 @@ export default {
                 },
                 {
                     id: 4,
+                    name: "Monarch Construction",
+                    description: 'Project management firm specializing budget analysis and asset allocation',
+                    link: 'https://buildwithmonarch.info',
+                    img: '/monarch_laptop_mockup2.webp',
+                    duration: '1800'
+
+                },
+                {
+                    id: 5,
                     name: "Tewsr.art",
                     description: 'Graffiti artist specializing in graphic design, large scale murals, and retail spaces.',
                     link: 'https://',
@@ -41,7 +50,7 @@ export default {
                     duration: '1800'
                 },
                 {
-                    id: 5,
+                    id: 6,
                     name: "snap-studio!!",
                     description: 'Handmade home goods - from furniture to built-ins. Located in East Los Angeles',
                     link: 'https://snap-studio.shop',
@@ -49,7 +58,7 @@ export default {
                     duration: '700'
                 },
                 {
-                    id: 6,
+                    id: 7,
                     name: "EarthTutor",
                     description: 'Free online resources for students studying Earth Science',
                     link: 'https://earthtutor.info',
@@ -57,7 +66,7 @@ export default {
                     duration: '1100'
                 },
                 {
-                    id: 7,
+                    id: 8,
                     name: "TaxBuddy",
                     description: 'Online accounting software designed for small & medium sized businesses',
                     link: 'https://yourtaxbuddy.xyz',
@@ -65,21 +74,13 @@ export default {
                     duration: '1400'
 
                 },
-                {
-                    id: 8,
-                    name: "Monarch Construction",
-                    description: 'Project management firm specializing budget analysis and asset allocation',
-                    link: 'https://buildwithmonarch.info',
-                    img: '/tax_buddy_mobile_mockup1.webp',
-                    duration: '1800'
-
-                },
+               
                 {
                     id: 9,
                     name: "Telos Truck",
                     description: 'Landing page providing information for the launch of their new electic truck',
                     link: 'https://buildwithmonarch.info',
-                    img: '/tax_buddy_mobile_mockup1.webp',
+                    img: '/telos_truck_desktop_mockup.png',
                     duration: '1900'
 
                 },
