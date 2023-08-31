@@ -17,6 +17,7 @@
     "nuxt-compress": "^5.0.0",
     "nuxt-gtag": "^0.6.1",
     "nuxt-icon": "^0.5.0",
+    "three": "^0.155.0",
     "vue-range-slider": "^0.6.0"
   },
   "dependencies": {

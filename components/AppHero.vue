@@ -1,10 +1,14 @@
 <script>
 
 import AppNavButton from "../components/AppNavButton.vue";
+import ThreeComponent from '../components/ThreeComponent.vue'
+
 export default {
     name: "AppHero",
 
-
+component: {
+  ThreeComponent
+}
 
 
 }
@@ -32,8 +36,9 @@ export default {
                 <AppNavButton to="#work" link="Explore Our Work"  />
             </div>
 
-            <div class="hero-graphic md:w-3/4 grid place-items-center ">
+            <div class="hero-graphic md:w-3/4 grid place-items-center overflow-hidden ">
 
+              <ThreeComponent/>
                 <!--<div class="z-6 mr-32 absolute  " data-aos="fade-left" data-aos-duration="700"><img src="/Web Development.webp" alt="Illustration of the different aspects of web development " ></div>
         <div class="mt-36 ml-72 z-0 absolute" data-aos="fade-right" data-aos-duration="1200">
 
@@ -41,9 +46,11 @@ export default {
         </div>
         <div class=" mt-96 absolute mr-96 z-2" data-aos="fade-left" data-aos-duration="1600"><img src="/E-commerce.webp" alt=""></div>-->
 
+                <!--  Nuxt Image Location
+
                 <nuxt-img src="/Development.webp" alt="image of a team collaborating on building a website"
                     data-aos="fade-left" data-aos-duration="1200" sizes="sm:100vw lg:100vw"/>
-
+-->
             </div>
 
 

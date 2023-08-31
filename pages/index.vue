@@ -14,25 +14,25 @@ import AppSEO from '../components/AppSEO.vue'
 import AppTestimonials from '../components/AppTestimonials.vue'
 import AppSubscribe from '../components/AppSubscribe.vue'
 import AppContact from '../components/AppContact.vue'
-
+import ThreeComponent from '../components/ThreeComponent.vue'
 
 </script>
 <template>
     <div>
-    
-    
+
+
     <AppHero/>
     <!--<AppQuote/>-->
     <AppExperience/>
-    
+
     <AppSEO/>
     <AppSubscribe/>
     <AppTestimonials/>
     <AppContact/>
-    
+  
     </div>
 
-    
+
 
 
 
