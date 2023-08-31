@@ -28,7 +28,7 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap
       //Set up shadow properties for the light
 light.shadow.mapSize.width = 1920; // default
 light.shadow.mapSize.height = 1080; // default
-light.shadow.camera.near = 1; // default
+light.shadow.camera.near = 0; // default
 light.shadow.camera.far = 500; // default
 
 
@@ -38,14 +38,16 @@ light.shadow.camera.far = 500; // default
       const cube = new THREE.Mesh(geometry, material);
       cube.castShadow = true
       cube.receiveShadow = false
+
       scene.add(cube);
 
 
       const planeGeometry = new THREE.PlaneGeometry( 20, 20, 30, 32 );
-const planeMaterial = new THREE.MeshStandardMaterial( { color: 0x7A4419 },  )
-const plane = new THREE.Mesh( planeGeometry, planeMaterial );
-plane.receiveShadow = true;
-scene.add( plane );
+      const planeMaterial = new THREE.MeshStandardMaterial( { color: 0x7A4419 },  )
+      const plane = new THREE.Mesh( planeGeometry, planeMaterial );
+      plane.receiveShadow = true;
+      plane.position.z = -1
+      scene.add( plane );
 
 //Create a helper for the shadow camera (optional)
 const helper = new THREE.CameraHelper( light.shadow.camera );

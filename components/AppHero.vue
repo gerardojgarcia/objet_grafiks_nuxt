@@ -18,7 +18,7 @@ component: {
     <div id="hero" class="bg-gray-200 p-8 mt-12 md:mt-0 dark:bg-gray-400 ">
 
 
-        <div class="flex flex-col md:flex-row md:justify-center md:align-center rounded-xl shadow-lg  md:py-16 pb-36 bg-white md:mt-10  dark:bg-slate-800 dark:text-white  "
+        <div class="flex flex-col lg:flex-row md:justify-center md:align-center rounded-xl shadow-lg  md:py-16 pb-36 bg-white md:mt-10  dark:bg-slate-800 dark:text-white  "
             data-aos="zoom-in-up" data-aos-duration="1000">
 
             <div class="hero-info md:w-1/4 p-12 md:p-24 self-center">
