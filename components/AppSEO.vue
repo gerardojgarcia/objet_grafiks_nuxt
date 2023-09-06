@@ -10,7 +10,7 @@ export default {
     class="bg-gray-200 dark:bg-gray-400 p-3 md:p-8 flex flex-col md:flex-row justify-center"
   >
     <div
-      class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl md:w-1/2 p-8 md:my-64 py-16 md:pl-6 dark:bg-slate-800 dark:text-white"
+      class="flex flex-col justify-center seo-info bg-white rounded-xl shadow-xl md:w-1/2 p-8 md:my-64 py-16 md:pl-6 dark:bg-night dark:text-white"
       data-aos="fade-right"
       data-aos-duration="1000"
     >
@@ -24,7 +24,7 @@ export default {
       class="md:w-1/2 flex flex-col space-y-4 md:space-y-8 mt-8 md:mt-0 md:pl-6"
     >
       <div
-        class="p-16 py-16 bg-white rounded-xl shadow-lg flex flex-col md:flex-row dark:bg-slate-800 dark:text-white"
+        class="p-16 py-16 bg-white rounded-xl shadow-lg flex flex-col md:flex-row dark:bg-night dark:text-white"
         data-aos="fade-left"
         data-aos-duration="2000"
       >
@@ -56,7 +56,7 @@ export default {
         />
       </div>
       <div
-        class="p-16 py-16 bg-white rounded-xl shadow-lg flex flex-col md:flex-row dark:bg-slate-800 dark:text-white"
+        class="p-16 py-16 bg-white rounded-xl shadow-lg flex flex-col md:flex-row dark:bg-night dark:text-white"
         data-aos="fade-left"
         data-aos-duration="2200"
       >

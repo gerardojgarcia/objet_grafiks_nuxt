@@ -61,7 +61,7 @@ export default {
 <template>
   <section id="testimonials" class="bg-gray-200 p-8 dark:bg-gray-400">
     <div
-      class="rounded-xl shadow-lg px-6 py-16 bg-white flex flex-col dark:bg-slate-800 dark:text-white"
+      class="rounded-xl shadow-lg px-6 py-16 bg-white flex flex-col dark:bg-night dark:text-white"
     >
       <h5 class="text-5xl font-bold pb-16">Testimonials</h5>
 

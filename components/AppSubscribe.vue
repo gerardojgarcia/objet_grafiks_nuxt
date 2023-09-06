@@ -14,14 +14,14 @@ export default {
         {
           id: 1,
           name: "Starter",
-          price: "500",
+          price: "350",
           description:
             "For simple projects that involve basic website development, minor updates, and simple customization",
           features: [
             {
               feature: "Basic Website Design ",
               detail:
-                "Design and development of a simple, static website with a few pages, including a homepage, about page, services page, and contact page.",
+                "Design and development of a simple, static website with a few pages, including a homepage, about page, services page, and contact page. WordPress customization",
             },
             {
               feature: "Template Customization ",
@@ -48,7 +48,7 @@ export default {
         {
           id: 2,
           name: "Growth",
-          price: "2500",
+          price: "1500",
           description:
             "For moderately complex projects that include more advanced features, responsive design, and some backend integration: ",
           features: [
@@ -82,7 +82,7 @@ export default {
         {
           id: 3,
           name: "Enterprise",
-          price: "4500",
+          price: "3500",
           description:
             "For complex projects that require advanced functionalities, extensive backend development, e-commerce integration, and custom design:",
           features: [
@@ -124,7 +124,7 @@ export default {
     class="flex flex-col p-4 md:p-8 bg-gray-200 overflow-hidden dark:bg-gray-400"
   >
     <div
-      class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center dark:bg-slate-800 dark:text-white"
+      class="bg-white rounded-xl shadow-xl md:mx-32 md:py-16 mb-10 p-8 flex flex-col justify-center items-center md:text-center dark:bg-night dark:text-white"
       data-aos="fade-up"
       data-aos-duration="1500"
     >

@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     ["@nuxtjs/robots", { configPath: "~/config/robots.config" }],
     "@nuxt/image",
     "nuxt-gtag",
+    "nuxt-icon",
   ],
   nitro: {
     compressPublicAssets: true,
