@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         primary: defaultTheme.colors.green,
-        night: '#0C1713'
+        night: '#0C1713',
+        lightOrange: '#F9DBBD'
       }
     }
   }
