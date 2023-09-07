@@ -14,9 +14,55 @@
         </p>
         <NuxtImg src="/Coding.webp" sizes="sm:100vw lg:45vw" class="p-16" />
       </div>
-      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl ml-4 w-1/2">
-        <strong>Contact</strong>
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-1/2 flex flex-col p-24">
+        <strong class="text-4xl">Contact Us</strong>
+        <form action="submit" class="flex flex-col mt-24 p-6 self-center w-3/4" >
+
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="dark:text-black">
+          <label for="name">Email</label>
+          <input type="text" name="email" id="email" class="dark:text-black">
+          <label for="name">Phone Number</label>
+          <input type="text" name="phone_number" id="phone_number" class="dark:text-black">
+
+          <section class="flex justify-between px-16 mt-8 ">
+            <label for="list">Select A Service</label>
+            <select name="service-list" id="service-list" class="dark:text-black">
+              <option value="starter" class="dark:text-black">Starter</option>
+              <option value="growth" class="dark:text-black">Growth</option>
+              <option value="enterprise" class="dark:text-black">Enterprise</option>
+              <option value="analysis" class="dark:text-black">Website Analysis</option>
+              <option value="maintenance" class="dark:text-black">Maintenance</option>
+              <option value="scraping" class="dark:text-black">Web Scraping</option>
+              </select>
+            </section>
+
+
+
+
+        </form>
       </div>
     </div>
   </section>
 </template>
+
+
+<style scoped>
+  label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+  }
+  input {
+    width: 75%;
+    border: 2px solid gray;
+    border-radius: .5rem;
+  }
+
+  select {
+    padding: .7rem;
+  }
+
+
+
+</style>
