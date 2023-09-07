@@ -3,9 +3,7 @@
   <section id="contact" class="flex flex-col p-8 bg-gray-200 dark:bg-gray-400">
     <div
       class="flex flex-col lg:flex-row md:justify-center md:align-center rounded-xl shadow-lg md:py-16 pb-36 bg-white md:mt-10 dark:bg-night dark:text-white p-8"
-      data-aos="zoom-in-up"
-      data-aos-duration="1000"
-    >
+      data-aos="zoom-in-up" data-aos-duration="1000">
       <div class="w-1/2">
         <strong class="text-5xl">Thank you for your interest!</strong>
         <p class="w-1/2 pt-6">
@@ -14,44 +12,21 @@
         </p>
         <NuxtImg src="/Coding.webp" sizes="sm:100vw lg:45vw" class="p-16" />
       </div>
-      <div
-        class="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-1/2 flex flex-col p-18"
-      >
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-1/2 flex flex-col p-18">
         <strong class="text-4xl mt-8 ml-8">Contact Us</strong>
 
         <!--Contact Form-->
         <form action="submit" class="flex flex-col mt-18 p-6 self-center w-3/4">
           <label for="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="dark:text-black"
-            required
-          />
+          <input type="text" name="name" id="name" class="dark:text-black" required />
           <label for="name">Email</label>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            class="dark:text-black"
-            required
-          />
+          <input type="text" name="email" id="email" class="dark:text-black" required />
           <label for="name">Phone Number</label>
-          <input
-            type="text"
-            name="phone_number"
-            id="phone_number"
-            class="dark:text-black"
-          />
+          <input type="text" name="phone_number" id="phone_number" class="dark:text-black" />
 
           <section class="flex justify-between px-16 my-8">
             <label for="list">Select A Service</label>
-            <select
-              name="service-list"
-              id="service-list"
-              class="dark:text-black"
-            >
+            <select name="service-list" id="service-list" class="dark:text-black">
               <option value="starter" class="dark:text-black">Starter</option>
               <option value="growth" class="dark:text-black">Growth</option>
               <option value="enterprise" class="dark:text-black">
@@ -66,20 +41,16 @@
               <option value="scraping" class="dark:text-black">
                 Web Scraping
               </option>
+              <option value="other" class="dark:text-black">
+                Other </option>
             </select>
           </section>
           <!--Contact Form Text Area-->
           <label for="description">Tell us about your project!</label>
-          <textarea
-            name="description"
-            id="project-descr"
-            cols="30"
-            rows="10"
-            required
-          ></textarea>
+          <textarea name="description" id="project-descr" cols="30" rows="10" required></textarea>
 
           <!--Contact Form Button-->
-          <AppButton title="Submit" class="mt-8 self-end" type="submit"/>
+          <AppButton title="Submit" class="mt-8 self-end" type="submit" />
         </form>
       </div>
     </div>
@@ -92,6 +63,7 @@ label {
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
+
 input {
   width: 75%;
   border: 2px solid gray;
