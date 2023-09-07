@@ -47,7 +47,7 @@ onMounted(() => {
   scene.add(cube);
 
   const planeGeometry = new THREE.PlaneGeometry(20, 20, 30, 32);
-  const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
+  const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xffd8ff });
   const plane = new THREE.Mesh(planeGeometry, planeMaterial);
   plane.receiveShadow = true;
   plane.position.z = -1;

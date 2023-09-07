@@ -15,14 +15,28 @@
         <NuxtImg src="/Coding.webp" sizes="sm:100vw lg:45vw" class="p-16" />
       </div>
       <div
-        class="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-1/2 flex flex-col p-24"
+        class="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-1/2 flex flex-col p-18"
       >
-        <strong class="text-4xl">Contact Us</strong>
-        <form action="submit" class="flex flex-col mt-24 p-6 self-center w-3/4">
+        <strong class="text-4xl mt-8 ml-8">Contact Us</strong>
+
+        <!--Contact Form-->
+        <form action="submit" class="flex flex-col mt-18 p-6 self-center w-3/4">
           <label for="name">Name</label>
-          <input type="text" name="name" id="name" class="dark:text-black" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="dark:text-black"
+            required
+          />
           <label for="name">Email</label>
-          <input type="text" name="email" id="email" class="dark:text-black" />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="dark:text-black"
+            required
+          />
           <label for="name">Phone Number</label>
           <input
             type="text"
@@ -31,7 +45,7 @@
             class="dark:text-black"
           />
 
-          <section class="flex justify-between px-16 mt-8">
+          <section class="flex justify-between px-16 my-8">
             <label for="list">Select A Service</label>
             <select
               name="service-list"
@@ -54,6 +68,18 @@
               </option>
             </select>
           </section>
+          <!--Contact Form Text Area-->
+          <label for="description">Tell us about your project!</label>
+          <textarea
+            name="description"
+            id="project-descr"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+
+          <!--Contact Form Button-->
+          <AppButton title="Submit" class="mt-8 self-end" />
         </form>
       </div>
     </div>
@@ -64,15 +90,20 @@
 label {
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 input {
   width: 75%;
   border: 2px solid gray;
   border-radius: 0.5rem;
+  margin-bottom: 1em;
 }
 
 select {
-  padding: 0.7rem;
+  padding: 0.5rem;
+}
+
+textarea {
+  border-radius: 0.5rem;
 }
 </style>
