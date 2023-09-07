@@ -85,7 +85,7 @@ export default {
           description:
             "Landing page providing information for the launch of their new electic truck",
           link: "https://buildwithmonarch.info",
-          img: "/telos_truck_desktop_mockup.png",
+          img: "/Building-Product.webp",
           duration: "1900",
         },
       ],

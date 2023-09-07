@@ -79,7 +79,7 @@
           ></textarea>
 
           <!--Contact Form Button-->
-          <AppButton title="Submit" class="mt-8 self-end" />
+          <AppButton title="Submit" class="mt-8 self-end" type="submit"/>
         </form>
       </div>
     </div>
@@ -105,5 +105,6 @@ select {
 
 textarea {
   border-radius: 0.5rem;
+  border: 2px solid gray;
 }
 </style>
