@@ -37,7 +37,7 @@ onMounted(() => {
   // Create a cube and add it to the scene
   const geometry = new THREE.BoxGeometry();
   const material = new THREE.MeshStandardMaterial(
-    { color: 0xddd78d },
+    { color: 0xddd72d },
     { metalness: 1.0 }
   );
   const cube = new THREE.Mesh(geometry, material);
@@ -47,7 +47,7 @@ onMounted(() => {
   scene.add(cube);
 
   const planeGeometry = new THREE.PlaneGeometry(20, 20, 30, 32);
-  const planeMaterial = new THREE.MeshStandardMaterial({ color: 0x7a4419 });
+  const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
   const plane = new THREE.Mesh(planeGeometry, planeMaterial);
   plane.receiveShadow = true;
   plane.position.z = -1;
