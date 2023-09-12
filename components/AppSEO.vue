@@ -18,7 +18,7 @@ export default {
     <div class="md:w-1/2 flex flex-col space-y-4 md:space-y-8 mt-8 md:mt-0 md:pl-6">
       <div class="p-16 py-16 bg-white rounded-xl shadow-lg flex flex-col md:flex-row dark:bg-night dark:text-white"
         data-aos="fade-left" data-aos-duration="2000">
-        <div class="flex flex-col w-1/2">
+        <div class="flex flex-col md:w-1/2">
           <strong class="text-3xl">Expert Google Analytics</strong>
           <div class=" space-y-4 md:w-3/4 pt-6 dark:text-gray-300">
 
@@ -56,19 +56,30 @@ export default {
         <div class="flex flex-col">
           <strong class="text-3xl">Strong, Keyword Rich Content</strong>
           <div class="space-y-4 md:w-3/4 pt-6 dark:text-gray-300">
-            <p>
-              We know how search engines work and are able to create content
-              that is optimized for both search engines and human readers.
-            </p>
-            <p>
+
+            <div class="flex">
+              <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6em" />
+              <p>
+                We know how search engines work and are able to create content
+                that is optimized for both search engines and human readers.
+              </p>
+            </div>
+
+          <div class="flex">
+            <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6em" />
+              <p>
               Research and identify the best keywords to target and incorporate
               them naturally into the content.
             </p>
-            <p>
-              Work to make sure that the content they create is engaging and
-              informative, which not only helps with SEO but also keeps visitors
-              on the website.
-            </p>
+          </div>
+            <div class="flex">
+              <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6em" />
+              <p>
+                Work to make sure that the content they create is engaging and
+                informative, which not only helps with SEO but also keeps visitors
+                on the website.
+              </p>
+            </div>
           </div>
         </div>
         <nuxt-img src="/Stats.webp" class="w-96 self-end pr-16 pt-6" alt="" sizes="sm:95vw lg:35vw" data-aos="fade-up"
