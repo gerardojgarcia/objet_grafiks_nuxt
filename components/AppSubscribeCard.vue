@@ -52,7 +52,7 @@ export default {
       </li>
     </ul>
 
-    <AppNavButton to="#contact" link="Get In Touch" class="mt-10" />
+    <AppNavButton to="#contact" link="Get In Touch" class="mt-10 self-center" />
   </div>
 </template>
 
