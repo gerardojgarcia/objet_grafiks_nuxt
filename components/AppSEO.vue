@@ -58,7 +58,7 @@ export default {
           <div class="space-y-4 md:w-3/4 pt-6 dark:text-gray-300">
 
             <div class="flex">
-              <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6em" />
+              <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6rem" />
               <p>
                 We know how search engines work and are able to create content
                 that is optimized for both search engines and human readers.
@@ -66,7 +66,7 @@ export default {
             </div>
 
           <div class="flex">
-            <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6em" />
+            <Icon name="ri:arrow-right-double-line" class=" mr-6" size="6rem" />
               <p>
               Research and identify the best keywords to target and incorporate
               them naturally into the content.
