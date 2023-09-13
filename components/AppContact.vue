@@ -16,7 +16,8 @@
         <strong class="text-4xl mt-8 ml-8">Contact Us</strong>
 
         <!--Contact Form-->
-        <form action="mailto:hi@objetgrafik@gmail.com" method="get" enctype="text/plain" class="flex flex-col md:mt-18 md:p-6 self-center md:w-3/4">
+        <form action="mailto:objetgrafik@gmail.com" method="get" enctype="text/plain"
+          class="flex flex-col md:mt-18 md:p-6 self-center md:w-3/4">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" class="dark:text-black" required />
           <label for="name">Email</label>

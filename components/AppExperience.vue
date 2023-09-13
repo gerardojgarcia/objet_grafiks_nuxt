@@ -88,6 +88,15 @@ export default {
           img: "/Building-Product.webp",
           duration: "1900",
         },
+        {
+          id: 10,
+          name: "Jennifer Payan - Portfolio",
+          description:
+            "A portfolio page for an archivist showcasing her experience and artwork",
+          link: "https://jenniferpayan.info",
+          img: "/Building-Product.webp",
+          duration: "1900",
+        },
       ],
     };
   },
@@ -98,9 +107,7 @@ export default {
   <section id="work" class="bg-gray-200 p-4 md:p-8 dark:bg-gray-400">
     <div
       class="flex flex-col md:justify-center md:align-center rounded-xl shadow-lg px-3 md:px-6 py-16 bg-white dark:bg-night dark:text-white"
-      data-aos="zoom-in-up"
-      data-aos-duration="1000"
-    >
+      data-aos="zoom-in-up" data-aos-duration="1000">
       <div class="text-left md:self-start md:w-1/4 px-8">
         <h1 class="text-6xl font-bold">Projects</h1>
       </div>
